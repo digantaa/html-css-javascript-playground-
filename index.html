@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Next Website</title>
+    <link rel="stylesheet" href="style.css" />
+    <script src="https://kit.fontawesome.com/1a455fabf9.js" crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap" rel="stylesheet">
+</head>
+<body class="font-kumbh-sans m-0 p-0 box-border">
+    <!--Navbar Section-->
+    <nav class="navbar bg-gray-900 h-20 flex justify-center items-center text-lg sticky top-0 z-50">
+        <div class="navbar__container flex justify-between h-20 w-full max-w-screen-xl mx-auto px-12">
+            <a href="/" id="navbar__logo" class="bg-gradient-to-t from-pink-500 to-yellow-300 bg-clip-text text-transparent flex items-center cursor-pointer text-2xl">
+                <i class="fas fa-gem"></i>Next
+            </a>
+            <div class="navbar__toggle" id="mobile-menu">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+            <ul class="navbar__menu flex items-center list-none text-center">
+                <li class="navbar__item h-20">
+                    <a href="/" class="navbar__links text-white flex items-center justify-center px-4 h-full">Home</a>
+                </li>
+                <li class="navbar__item h-20">
+                    <a href="/tech.html" class="navbar__links text-white flex items-center justify-center px-4 h-full">Tech</a>
+                </li>
+                <li class="navbar__item h-20">
+                    <a href="/products.html" class="navbar__links text-white flex items-center justify-center px-4 h-full">Products</a>
+                </li>
+                <li class="navbar__btn flex justify-center items-center px-4">
+                    <a href="/signup.html" class="button flex justify-center items-center text-white px-4 py-2 border-none outline-none rounded bg-pink-500 hover:bg-indigo-700 transition-all ease-linear">Sign Up</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!--Hero Section-->
+    <div class="main bg-gray-900 h-screen">
+        <div class="main__container grid grid-cols-1 md:grid-cols-2 items-center justify-center h-screen max-w-screen-xl mx-auto px-12">
+            <div class="text-center md:text-left">
+                <h1 class="main__content text-4xl bg-gradient-to-t from-pink-500 to-pink-200 bg-clip-text text-transparent">Next Generation</h1>
+                <h2 class="main__content text-4xl bg-gradient-to-t from-purple-600 to-blue-300 bg-clip-text text-transparent mt-4">Technology</h2>
+                <p class="main__content text-2xl font-bold mt-4">See what makes us different</p>
+                <button class="main__btn mt-8 text-lg bg-gradient-to-t from-pink-600 to-pink-400 px-8 py-3 border-none rounded text-white transition-all ease-in-out hover:bg-indigo-800">
+                    <a href="/">Get started</a>
+                </button>
+            </div>
+            <div class="main__img--container text-center">
+                <img src="images/pic1.svg" alt="pic" id="main__img" class="h-4/5 w-4/5 mx-auto">
+            </div>
+        </div>
+    </div>
+
+    <!-- Service Section -->
+    <div class="services bg-gray-900 flex flex-col items-center h-screen">
+        <h1 class="text-2xl bg-gradient-to-r from-pink-500 via-red-500 to-pink-500 bg-clip-text text-transparent mb-20">What the jype is all about</h1>
+        <div class="service__container flex justify-center flex-wrap">
+            <div class="service__card m-4 h-[525px] w-[400px] rounded bg-cover bg-bottom text-white relative" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/pic3.jpg')">
+                <h2 class="absolute top-72 left-8">Experience Bliss</h2>
+                <p class="absolute top-80 left-[300px]">AI-powered technology</p>
+                <button class="absolute top-[440px] left-8 text-white px-5 py-2 border-none outline-none rounded bg-pink-500 transition ease-in transform hover:scale-105">Get started</button>
+            </div>
+            <div class="services__card m-4 h-[525px] w-[400px] rounded bg-cover bg-bottom text-white relative" style="background-image: linear-gradient(to bottom, rgba(0,0,0,0) 0%, rgba(17,17,17,0.6) 100%), url('/images/pic4.jpg')">
+                <h2 class="absolute top-72 left-8">Are you ready?</h2>
+                <p class="absolute top-80 left-[300px]">Take the leap</p>
+                <button class="absolute top-[440px] left-8 text-white px-5 py-2 border-none outline-none rounded bg-pink-500 transition ease-in transform hover:scale-105">Get started</button>
+            </div>
+        </div>
+    </div>
+
+    <!-- Footer Section -->
+    <div class="footer__container bg-gray-900 py-16">
+        <div class="footer__links">
+            <div class="footer__link--wrapper flex flex-wrap justify-center">
+                <div class="footer__link--items m-4">
+                    <h2 class="text-white text-lg">About us</h2>
+                    <a href="/" class="text-white">how it works</a>
+                    <a href="/" class="text-white">Testimonials</a>
+                    <a href="/" class="text-white">Careers</a>
+                    <a href="/" class="text-white">Investments</a>
+                    <a href="/" class="text-white">Terms of services</a>
+                </div>
+                <div class="footer__link--items m-4">
+                    <h2 class="text-white text-lg">About us</h2>
+                    <a href="/" class="text-white">how it works</a>
+                    <a href="/" class="text-white">Testimonials</a>
+                    <a href="/" class="text-white">Careers</a>
+                    <a href="/" class="text-white">Investments</a>
+                    <a href="/" class="text-white">Terms of services</a>
+                </div>
+            </div>
+            <div class="footer__link--wrapper flex flex-wrap justify-center">
+                <div class="footer__link--items m-4">
+                    <h2 class="text-white text-lg">About us</h2>
+                    <a href="/" class="text-white">how it works</a>
+                    <a href="/" class="text-white">Testimonials</a>
+                    <a href="/" class="text-white">Careers</a>
+                    <a href="/" class="text-white">Investments</a>
+                    <a href="/" class="text-white">Terms of services</a>
+                </div>
+                <div class="footer__link--items m-4">
+                    <h2 class="text-white text-lg">About us</h2>
+                    <a href="/" class="text-white">how it works</a>
+                    <a href="/" class="text-white">Testimonials</a>
+                    <a href="/" class="text-white">Careers</a>
+                    <a href="/" class="text-white">Investments</a>
+                    <a href="/" class="text-white">Terms of services</a>
+                </div>
+            </div>
+        </div>
+        <div class="social__media flex justify-center items-center mt-8">
+            <div class="social__media--wrap text-center">
+                <div class="footer__logo mb-4">
+                    <a href="/" id="footer__logo" class="text-white text-xl flex items-center justify-center">
+                        <i class="fas fa-gem mr-2"></i>NEXT
+                    </a>
+                </div>
+                <p class="website__right text-white">NEXT 2020. All rights reserved</p>
+                <div class="social__icons flex justify-center mt-4">
+                    <a href="#" class="social__icon--link text-white mx-2" target="_blank">
+                        <i class="fab fa-facebook"></i>
+                    </a>
+                    <a href="#" class="social__icon--[_{{{CITATION{{{_1{](https://github.com/buribalazs/smooth-drag-order/tree/7b40d21d076c3e31765f61481f537beaf4c5ec9f/README.md)[_{{{CITATION{{{_2{](https://github.com/Aurimas-stack/3rd-website-project-Web-Design/tree/86915f99f8cfefb9d0421a240b1daebe8bbcdecd/success_acc_del.php)[_{{{CITATION{{{_3{](https://github.com/ardad14/summer-nix-site/tree/3c6992a39047c5b0bb5c6ca3e4ad3f3d5c3c934a/App%2FView%2FLayouts%2FAdminLayout.php)[_{{{CITATION{{{_4{](https://github.com/VictorMOPSena/senasoft-repositorio/tree/28ec22b0e9513981352093cd9011f7353aaabca8/actualizar_personal.php)[_{{{CITATION{{{_5{](https://github.com/moeclay/pdw24jam_entry/tree/9606afcd7eba27990562194ec25565c642e33eab/application%2Fviews%2Fdashboard%2Fpersonal_point.php)[_{{{CITATION{{{_6{](https://github.com/jumanjeeh/fortune-cookie-generator/tree/071d33072a848e7d5cd0cb132d2e9cdb8e5d9b56/fortunecookie.php)[_{{{CITATION{{{_7{](https://github.com/phocoin/pho/tree/e3d83f414fa0f4fac1f505ccdde578fd9ad33ad7/README.md)
